@@ -1,0 +1,110 @@
+header nav{
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+ }
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color: black;       
+    font-family: "Cedarville Cursive", cursive;        
+    font-weight: 400;        
+    font-style: normal;
+    font-size: 40px;  
+    margin-left:40px;      
+}
+
+.navigation,.random {
+    text-decoration: none;
+    cursor:pointer;
+    color: black;       
+    font-family: "Cedarville Cursive", cursive;        
+    font-weight: 400;        
+    font-style: normal;
+    font-size: 30px;        
+}
+
+h1 {
+    font-family: "Cedarville Cursive", cursive;        
+    font-weight: 400;        
+    font-style: normal;
+    font-size: 120px; 
+    text-align: center;  
+    margin-bottom: 0px; 
+    padding-top: 120px; 
+    padding-bottom: 220px;
+    position: relative; 
+    z-index: 1; 
+}
+
+.main {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    cursor: pointer;
+    max-width: 60vw;
+}
+
+.text {
+    position: relative; 
+    z-index: 3; 
+}
+
+h1{
+    font-family: "Cedarville Cursive", cursive;        
+    font-weight: 400;        
+    font-style: normal;
+    font-size: 120px; 
+    text-align: center;  
+    margin-bottom: 0px; 
+    padding-top: 120px; 
+    padding-bottom: 320px;
+  
+}
+
+p{
+    font-family: "Cedarville Cursive", cursive;        
+    font-weight: 400;        
+    font-style: normal;
+    font-size: 30px; 
+    text-align: left; 
+    margin-left: 10%; 
+    margin-right:10%;
+    padding-bottom:50px;
+      
+}
+.box{
+    border-bottom: 1px solid #B10707 ;
+    
+}
+
+.kiss{
+    max-width: 5vw;
+}
+
+img{
+    max-width: 50vw;
+}
+
+.line{
+    border-style: 4px solid #B10707 ;
+    font-family: "Cedarville Cursive", cursive;        
+    font-weight: 400;        
+    font-style: normal;
+    font-size: 30px; 
+    text-align: left; 
+    margin-left:10%;
+    
+}
+.additional-image {
+    position: absolute;
+    top: 110%;
+    right:20%; 
+    transform: translate(0, -50%);
+    max-width: 15vw; 
+    z-index: 3;
+    cursor: pointer;
+}
