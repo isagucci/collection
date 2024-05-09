@@ -3,9 +3,11 @@ header nav{
     display:flex;
     justify-content:space-around;
  }
- #audioPlayer {
+ 
+#audioPlayer {
     display: none;
 }
+
 a{
     text-decoration: none;
     cursor:pointer;

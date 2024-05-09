@@ -7,6 +7,7 @@ header nav{
  #audioPlayer {
     display: none;
 }
+
 a{
     text-decoration: none;
     cursor:pointer;
