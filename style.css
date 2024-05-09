@@ -1,4 +1,56 @@
-
+.loading-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 999;
+  }
+  
+  .loading-screen {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: loadingAnimation 4s ease-in-out forwards;
+    animation-delay: 5s; 
+  }
+  
+  .loading-screen img {
+    width: 50vw;
+    height: auto;
+  }
+  
+  @keyframes loadingAnimation {
+    0% {
+      width: 100%;
+      height: 100%;
+      border-radius: 0; 
+    }
+   
+    50% {
+      width: 1500px;
+      height: 1500px;
+      border-radius: 50%; 
+    }
+    100% {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+  
+  
+ 
 header nav{
     padding:20px;
     display:flex;
@@ -49,15 +101,32 @@ p{
     
 
 }
+.box:hover{
+    border-bottom: 3px solid rgb(219, 146, 146) ;
+    background-color: #B10707;
+    
+    
+
+}
 
 .kiss{
-    max-width: 5vw;
+    max-width: 3vw;
 }
 
-.arrow{
-    max-width: 100vw;
+.arrow img {
+    width: 30px; 
+    height: auto; 
 }
 
+.arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 50px; 
+    transform: translateX(-50%);
+}
+.archive{
+    padding-top: 70px;
+}
 .checkbox {
     cursor: pointer;
     appearance: none;
@@ -65,19 +134,35 @@ p{
     -moz-appearance: none;
     width: 20px;
     height: 20px;
-    border: 1px solid #ccc;
+    padding: 5px;
+    border: 1.5px solid #100c0c;
     border-radius: 5px;
     outline: none;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 300px;
+    align-items: center;
 }
 
 .checkbox:checked {
     background-color: #B10707;
 }
+.checkbox:hover {
+    border: 1.5px solid #B10707;
+    
+}
+
+
+
 label{
     font-family: "Cedarville Cursive", cursive;        
     font-weight: 400;        
     font-style: normal;
-    font-size: 15px; 
-     
+    font-size: 20px; 
+    text-align: center;
+    bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1; 
 }

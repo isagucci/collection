@@ -4,6 +4,10 @@ header nav{
     justify-content:space-around;
  }
 
+ #audioPlayer {
+    display: none;
+}
+
 a{
     text-decoration: none;
     cursor:pointer;

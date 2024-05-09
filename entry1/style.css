@@ -108,3 +108,8 @@ img{
     z-index: 3;
     cursor: pointer;
 }
+
+#audioPlayer {
+    display: none;
+}
+
